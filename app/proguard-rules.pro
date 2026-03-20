@@ -35,7 +35,7 @@
 -keep class org.acra.sender.JobSenderService
 
 # Ocr Support 
--keep class com.equationl.ncnnandroidppocr.bean.**
+-keepclasseswithmembernames class com.equationl.ncnnandroidppocr.bean.** { *; }
 
 # Rhino JavaScript engine
 -keep class org.mozilla.javascript.** { *; }
