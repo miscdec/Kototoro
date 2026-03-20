@@ -34,6 +34,9 @@
 -keep class org.acra.attachment.DefaultAttachmentProvider { *; }
 -keep class org.acra.sender.JobSenderService
 
+# Ocr Support 
+-keep class com.equationl.ncnnandroidppocr.bean.**
+
 # Rhino JavaScript engine
 -keep class org.mozilla.javascript.** { *; }
 -keep class org.mozilla.classfile.** { *; }
